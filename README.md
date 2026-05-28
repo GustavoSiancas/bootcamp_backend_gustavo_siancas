@@ -93,7 +93,23 @@ Para ejecutar el proyecto en Windows se utilizó el siguiente comando:
 * Lombok
 * Maven
 
+
 ---
+
+## Puntos de mejora
+
+Como posibles mejoras para una versión más escalable del proyecto, se podría implementar:
+
+* **MapStruct**
+
+  Para manejar los mapeos entre DTOs y entidades de una manera más limpia y ordenada, evitando código repetitivo y facilitando el mantenimiento.
+
+* **Migraciones de base de datos**
+
+  Usando herramientas como Flyway o Liquibase para controlar cambios en la base de datos de manera versionada, especialmente pensando en un proyecto más grande o escalable.
+
+La idea en esta prueba fue mantener una solución simple y funcional, pero dejando abierta la posibilidad de mejorar la estructura a futuro.
+.
 
 ## Autor
 
